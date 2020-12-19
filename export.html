@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<script type="module">
+			//import {something} from 'somelibrary';
+			import { mahima,MyClass,students,name,myclassobj2 } from './export.js';
+			//Create an object
+			var obj = new MyClass();
+			obj.showName();
+			students.displayName('Mahima');//Mahima is an actual arg
+			students.displayName2();
+			console.log(name);
+			myclassobj2.showName2();
+		</script>
+	</body>
+</html>
